@@ -1,0 +1,10 @@
+## Interface: 60000
+## DefaultState: Enabled
+## Title: |cFF007FFFO3|r Loot
+## Author: Oz
+## Version: 0.1
+## Notes: O3 Loot
+## RequiredDeps: O3
+
+Loot.lua
+Roll.lua
