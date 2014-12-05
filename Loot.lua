@@ -290,7 +290,7 @@ O3:module({
 		end		
 
 		self.lootWindow:scrollTo(0)
-		if (self.settings.autoLoot) then
+		if (self.settings.autoLoot and not IsShiftKeyDown()) then
 			self:autoLoot()
 		end
 	end,
